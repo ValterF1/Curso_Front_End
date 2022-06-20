@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #66ccff;
+  padding: 35px;
+  text-align: center;
+  font-size: 35px;
+  color: #0000ff;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #66ffff;
+  padding: 20px 20px 74px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+}
+
+a:hover {
+  color: #ffffff;
+	text-decoration: underline;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 60px 60px 126px 60px;
+  text-align: center;
+  width: 70%;
+  background-color: #99ffcc;
+}
+
+img {
+  float: left;
+  width: 113px;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}
+
+/* Clear floats after the columns */
+section::after {
+  background: #99ffcc;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #66ccff;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  height: 7vw;
+}
+
+footer>p {
+  margin: 16px;
+  color: #0000ff;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+@media (max-width: 1024px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  nav {
+    width: 30%;
+    height: auto;
+  }
+  article {
+    width: 70%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+  }
+  nav {
+    width: 30%;
+    height: auto;
+    padding: 20px 20px 78px 20px;
+  }
+  article {
+    width: 70%;
+    height: auto;
+    padding: 60px 60px 20px 60px;
+  }
+  img {
+    margin: 0 200px 10px 148px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+}
+}
+
+
+
+  @media (max-width: 450px) {
+    header {
+      width: 100%;
+      height: auto;
+      font-size: 15px;
+    }
+    footer {
+      width: 100%;
+      height: auto;
+    }
+    article {
+      width: 100%;
+      height: auto;
+    }
+    img {
+      margin-left: 91px;
+    }
+    article>h2 {
+      margin-top: 159px;
+    }
+    nav {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    nav>h3 {
+      display: none;
+    }
+    li {
+      display: inline;
+    }
+    .margem {
+      margin-right: 14px;
+    }
+    .margem2 {
+      padding: 0 0 7px 20px;
+    }
+    .margem3 {
+      padding: 0 0 7px 109px;
+    }
+    }
+    
+@media (max-width: 375px) {
+  header {
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  article {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    margin-left: 66px;
+  }
+  article>h2 {
+    margin-top: 159px;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  nav>h3 {
+    display: none;
+  }
+  ul {
+    font-size: 15px;
+  }
+  li {
+    display: inline;
+  }
+  .margem {
+    margin-right: 8px;
+  }
+  .margem2 {
+    padding: 0 0 7px 12px;
+  }
+  .margem3 {
+    padding: 0 0 7px 99px;
+  }
+  }

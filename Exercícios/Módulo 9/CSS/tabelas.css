@@ -1,0 +1,82 @@
+
+
+table {
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+
+}
+
+thead {
+	background-color: #034589;
+	color: white;
+	padding: 8px;
+	font-size: 1.6rem;
+	vertical-align: middle;
+	height: 40px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.coluna1 {
+	width: 15%;
+	font-size: 1.4rem;
+	font-weight: bold;
+
+	
+}
+
+#coluna2, #coluna3, #coluna4, #coluna5 {
+	width: 15%;
+	text-align: center;
+}
+
+th {
+	border-top: 5px;
+}
+
+td {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font-size: 1.4rem;
+}
+
+thead tr th {
+	padding-top: 12px;
+	border-right: 1px solid #ddd;
+}
+
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: center;
+	font-weight: bold;
+}
+
+.table-container tfoot {
+	background: #e6ffff;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+#linha-produtos, #linha-produtoB {
+	background: #e6ffff;
+}
+
+#linha-produtos {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+#total-produtos {
+	font-size: 1.3rem;
+}
