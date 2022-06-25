@@ -4,6 +4,12 @@ html {
 
 body {
    font-family: sans-serif;
+   background-color: rgb(207, 239, 243);
+}
+
+.main-container {
+    max-width: 1198px;
+    margin: 0 auto;
 }
 
 header {
@@ -12,38 +18,73 @@ header {
     float: left;
     padding: 20px;
     width: 100%;
-    border-bottom: 1px solid #254159;
 }
 
 header>img {
-    width: 150px;
+    width: 400px;
     height: 150px;
-    padding-left: 100px;
+
+}
+
+section {
+    background: rgb(70, 223, 146);
+    width: 100%;
 }
 
 section nav {
     display: block;
     float: left;
     width: 30%;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+nav li {
+    background-color: #efefef;
+    margin: 1px 20px 10px 0;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #385874;
 }
 
 section article {
     display: block;
-    float: right;
+    float: left;
     width: 70%;
+    padding-bottom: 15px;
 }
 h1 {
     font-size: 2.4rem;
     text-align: center;
+    color: #01182c;
 }
 
 h2 {
     font-size: 2rem;
     text-align: center;
+    color: #01182c;
+    margin: 20px 0 20px 0;
 }
 
 h3 {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
+    color: #01182c;
+    margin: 20px 0 20px 0; 
 }
 
 p {
